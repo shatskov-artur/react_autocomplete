@@ -96,7 +96,7 @@ export const App: React.FC = () => {
           </div>
         </div>
 
-        {filteredPeople.length === 0 && (
+        {filteredPeople.length === 0 && isFocused && (
           <div
             className="
             notification
